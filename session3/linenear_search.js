@@ -18,19 +18,24 @@
 
 
 
-let numbers =[7,5,9,-3,0,9,9,5,7 ]
-let n = Number(prompt("enter a number"));
-let indexOfN = [];
+// let numbers =[7,5,9,-3,0,9,9,5,7 ]
+// let n = Number(prompt("enter a number"));
+// let indexOfN = [];
 
-numbers.forEach((number, index) => {
-    if (number === n){
-        indexOfN.push(index);
+// numbers.forEach((number, index) => {
+//     if (number === n){
+//         indexOfN.push(index);
 
-    }
-});
+//     }
+// });
 
-if (indexOfN.length === 0) {
-    alert("Not found")
-}else{
-    alert(`Number ${n} at ${indexOfN}`)
-}
+// if (indexOfN.length === 0) {
+//     alert("Not found")
+// }else{
+//     alert(`Number ${n} at ${indexOfN}`)
+// }
+
+
+
+
+ 
